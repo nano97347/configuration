@@ -36,6 +36,7 @@ inoremap <C-z> <Nop>
 noremap /dir :let @+ = expand('%:p:h')<CR>
 noremap /color :let @+ = synIDattr(synID(line('.'), col('.'), 1), 'name')<CR>
 match ErrorMsg /\s\+$/
+let g:netrw_dirhistmax = 0
 let g:netrw_banner=0
 let g:netrw_fastbrowse = 0
 autocmd FileType netrw setlocal cursorline
