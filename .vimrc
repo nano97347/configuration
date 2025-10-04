@@ -16,6 +16,7 @@ set hlsearch
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set belloff=all
 augroup filetype_indent
   autocmd FileType html,css,javascript setlocal tabstop=2 shiftwidth=2
 augroup END
